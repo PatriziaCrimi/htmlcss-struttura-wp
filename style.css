@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+#page_wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header */
 header {
   background-color: yellow;
   height: 100px;
@@ -16,6 +22,7 @@ header {
   clear: both;
 }
 
+/* Aside Left */
 aside.left {
   background-color: pink;
   width: 20%;
@@ -23,6 +30,7 @@ aside.left {
   float: left;
 }
 
+/* Main */
 main {
   background-color: purple;
   width: calc(60% - 40px);
@@ -44,10 +52,14 @@ main p {
   padding: 10px;
 }
 
-aside.right .pink_small {
-  background-color: pink;
+/* Aside Right */
+aside.right {
   width: 20%;
   float: left;
+}
+
+aside.right .pink_small {
+  background-color: pink;
   margin-bottom: 15px;
   padding: 10px 20px;
 }
@@ -56,6 +68,7 @@ aside.right p {
   margin-top: 10px;
 }
 
+/* Footer */
 footer {
   background-color: lightblue;
   height: 50px;
