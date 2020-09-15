@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 #page_wrapper {
   width: 80%;
   margin: auto;
@@ -14,6 +18,8 @@ header {
   background-color: yellow;
   height: 100px;
   margin-bottom: 10px;
+  text-align: center;
+  line-height: 100px;
 }
 
 .container::after {
@@ -30,6 +36,16 @@ aside.left {
   float: left;
 }
 
+aside.left > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+aside.left p {
+  text-align: justify;
+  line-height: 20px;
+}
+
 /* Main */
 main {
   background-color: purple;
@@ -41,6 +57,7 @@ main {
 
 main h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 main h2 {
@@ -72,4 +89,7 @@ aside.right p {
 footer {
   background-color: lightblue;
   height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
 }
